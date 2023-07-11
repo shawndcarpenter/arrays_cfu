@@ -41,3 +41,10 @@ puts names[0]
 puts ages[1]
 puts account_balances[1]
 puts has_pet[4]
+
+# The .reverse method wil output the called array in the reverse order of what was initially defined.
+# For example, if we called an array of strings in the order of:
+puts office_supplies = ["lamp", "stapler", "mouse", "keyboard"]
+# The .reverse method would output ["keyboard", "mouse", "stapler", "lamp"]
+puts office_supplies.reverse
+
